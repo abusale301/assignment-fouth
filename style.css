@@ -1,0 +1,28 @@
+#foodies{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+}
+.foods{
+
+    border: 2px solid green;
+    border-radius: 20px;
+    padding:20px;
+    text-align: center;
+    width:300px;
+
+}
+.food-name{
+    font-size: 35px;
+    color:Red;
+}
+#foodDetails img{
+    width:200px;
+}
+
+.search{
+    text-align: center;
+}
+.main_container{
+    margin-top: 50px;
+}
